@@ -132,7 +132,7 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-ایدی ادمین  👈        [⭐️EleGanceTM⭐️](https://telegram.me/sudoam)
+ایدی ادمین  👈        [⭐️saleh⭐️](https://telegram.me/sudoam)
 
 هر نفر = یک ربات ✖️
 ربات دوم = 4000ت ✔️
