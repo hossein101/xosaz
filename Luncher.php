@@ -126,14 +126,13 @@ function processMessage($message) {
     if (strpos($text, "/start") === 0) {
         apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام 
 
-برای ساخت ربات پیام رسان خود  توکن ربات خود را از @botfather دریافت کرده و آن را ارسال کنید. 
+برای ساخت ربات xo خود  توکن ربات خود را از @botfather دریافت کرده و آن را ارسال کنید. 
 
 به عنوان مثال :
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassengerBot)
-عضو کانال ما شوید  👈        [⭐️EleGanceTM⭐️](https://telegram.me/EleGanceTM)
+ایدی ادمین  👈        [⭐️EleGanceTM⭐️](https://telegram.me/sudoam)
 
 هر نفر = یک ربات ✖️
 ربات دوم = 4000ت ✔️
