@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '289979045:AAHubk8cPQpThxi1jREiR2JV6vBevGx6zDI');
+define('BOT_TOKEN', '274486135:AAE6gd8EAkcwi0sr9ZK5cqgWatf8Bzccbts');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 188383245;
+    $admin = 262171688;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -132,11 +132,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-ایدی ادمین  👈        [⭐️saleh⭐️](https://telegram.me/sudoam)
+ایدی ادمین  👈        [⭐️ADMIN⭐️](https://telegram.me/ho3eindeltabot)
 
 هر نفر = یک ربات ✖️
-ربات دوم = 4000ت ✔️
-🤖 @TGMassengerRoBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+ربات دوم = 2000ت ✔️
+🤖 @ho3eindeltabot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -147,7 +147,7 @@ $pmembersid= explode("\n",$txxt);
 ";
     	file_put_contents('pmembers.txt',$aaddd);
 }
-        if($chat_id == 255017796)
+        if($chat_id == 262171688)
         {
           if(!file_exists('tokens.txt')){
         file_put_contents('tokens.txt',"");
@@ -162,8 +162,7 @@ $pmembersid= explode("\n",$txxt);
     }else if ($text == "Version") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>TG Massenger Bot</b>
 <b>ver. 1.0</b>
-<code>Coded By</code> @Kiarash_Gh14
-@EleGanceTM 2016©","parse_mode"=>"html"));
+<code>Coded By</code> @Vahshi_typer 2016©","parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
@@ -185,13 +184,13 @@ $pmembersid= explode("\n",$txxt);
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url= http://tg2-tgmassenger.rhcloud.com/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url= http://xosaz-darkhand.rhcloud.com/'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
     }
     }
-    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 255017796) {
+    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 262171688) {
       if (strpos($text, ":")) {
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال برسی 🔃"));
     $url = "http://api.telegram.org/bot".$matches[0]."/getme";
@@ -221,14 +220,14 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url= http://tgland-tgmassenger.rhcloud.com/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url= http://xosaz-darkhand.rhcloud.com/'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=tglandmassengerbot
+ https://telegram.me/storebot?start=x_o_gameebot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot255017796:AAFPeXuzjFpBTjaezZSeC8l-BdDuTWSAsVw/"; 
+    $bot_url    = "https://api.telegram.org/bot274486135:AAE6gd8EAkcwi0sr9ZK5cqgWatf8Bzccbts/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -257,10 +256,10 @@ $output = curl_exec($ch);
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "👾 شما قبلا یک ربات ثبت کرده اید  و قادر به ثبت ربات دوم نیستید.
 
 هر نفر = یک ربات ✖️
-ربات دوم = 4000ت ✔️
+ربات دوم = 2000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @TGMassengerRoBot"));
+🚀 @ho3eindeltabot"));
       }
     }
       
@@ -273,7 +272,7 @@ else{
 
 }
 
-        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 255017796) {
+        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 262171688) {
           
         if (strpos($text, ":")) {
           
@@ -305,14 +304,14 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=http://tg2-tgmassenger.rhcloud.com/'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=http://xosaz-darkhand.rhcloud.com/'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=TGmassengerBot
+ https://telegram.me/storebot?start=x_o_gameebot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot255017796:AAFPeXuzjFpBTjaezZSeC8l-BdDuTWSAsVw/"; 
+    $bot_url    = "https://api.telegram.org/bot274486135:AAE6gd8EAkcwi0sr9ZK5cqgWatf8Bzccbts/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -368,7 +367,7 @@ else{
 }
 
 
-define('WEBHOOK_URL', 'https://tg2-tgmassenger.rhcloud.com/Luncher.php/');
+define('WEBHOOK_URL', 'https://xosaz-darkhand.rhcloud.com.rhcloud.com/Luncher.php/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
